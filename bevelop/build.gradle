@@ -35,6 +35,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.android.support:recyclerview-v7:22.0.+'
     compile 'com.android.support:support-v4:22.0.0'
     compile 'com.grasea:grandroid:1.0.3'
     compile 'com.grasea:grandview:1.0.0'
